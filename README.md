@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+## ¡Bienvenidos a mi Curso de React en Vivo!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Este repositorio es donde la magia sucede. Aquí documentaré cada paso de mi curso de React, transmitido en vivo para que aprendamos juntos. Usaremos Bun, Vite.js, TypeScript y React para construir aplicaciones increíbles, ¡y tú serás parte del proceso!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Estructura del Repositorio
 
-## Expanding the ESLint configuration
+* **Commits:** Cada commit representa una lección, un concepto clave o un momento épico de nuestras sesiones en vivo.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* **Branches:** Las branches principales se organizan por secciones o módulos del curso, con nombres como `clase-01`, `clase-02`, etc.
+* **Código:** El código fuente de nuestras creaciones con React, construido con Bun, Vite.js, TypeScript y React, evolucionará en la rama principal a medida que avancemos juntos.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Redes
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+[https://doras.to/gentleman-programming](https://doras.to/gentleman-programming)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Cómo Sacarle el Máximo Provecho
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clona el repositorio:** `git clone https://docs.github.com/es/repositories`
+2. **Instala las dependencias:** `bun install`
+3. **¡Únete a mis streams!** Sígueme en YouTube, Kick y Twitch para no perderte ninguna sesión en vivo (link arriba).
+4. **Explora las branches:** `git checkout clase-XX` (reemplaza XX con el número de clase que te interese)
+5. **Revisa los commits:** `git log` para ver la historia de nuestro progreso juntos.
+6. **¡Pregunta, comenta, participa!** Este curso es interactivo, ¡así que no te quedes con dudas!
+
+### Contribuciones
+
+
+Aunque este repositorio es principalmente para documentar el curso, si tienes alguna sugerencia, corrección o mejora ¡no dudes en abrir un issue o pull request! ¡Tu aporte es valioso!
+
+**¡Nos vemos en los streams! ¡Vamos a dominar React juntos!** 🚀 
+
