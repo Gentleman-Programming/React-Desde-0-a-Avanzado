@@ -2,11 +2,20 @@ import { useState } from 'react'
 import { Button } from './components'
 import './App.css'
 
-
 function App() {
   const [count, setCount] = useState(0)
 
+  // batching
+
   const countMore = () => {
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
+    setCount((count) => count + 1)
     setCount((count) => count + 1)
   }
 
