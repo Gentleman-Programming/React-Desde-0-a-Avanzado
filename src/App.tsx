@@ -2,6 +2,8 @@ import './App.css'
 import { useFetch } from './hooks';
 
 const url = "https://api.example.com/data";
+// User ejemplo
+// const userUrl = "https://api.example.com/user";
 
 interface Data {
   name: string;
@@ -11,6 +13,7 @@ interface Data {
 
 function App() {
   const { data, error, loading } = useFetch<Data>(url)
+  // const { data: dataUser, error: errorUser, loading: loadingUser } = useFetch<{name: string}>(url)
 
   if (loading) {
     return <div>Cargando...</div>

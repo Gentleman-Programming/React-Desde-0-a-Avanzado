@@ -28,6 +28,7 @@ export const useFetch = <T>(url: string): Params<T> => {
         }
 
         const jsonData: T = await response.json();
+
         setData(jsonData)
         setError(null);
       } catch (err) {
