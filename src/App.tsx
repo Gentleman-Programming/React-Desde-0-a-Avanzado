@@ -4,6 +4,7 @@ import { Character } from './models';
 import { useApi } from './hooks/useApi';
 
 function App() {
+
   const { loading, error, data, fetch } = useApi<Character, number>(getCharacter, { autoFetch: true, params: 1 })
 
   if (loading) {
