@@ -3,7 +3,7 @@ import { Character, UseApiCall } from "@/models"
 import { loadAbort } from "@/utilities"
 import axios from "axios"
 
-export const getCharacter = (id: number): UseApiCall<Character> => {
+export const getCharacter = (id: number): UseApiCall<Character, number> => {
   const controller = loadAbort();
 
   return {
@@ -12,7 +12,7 @@ export const getCharacter = (id: number): UseApiCall<Character> => {
   };
 }
 
-export const newCharacter = (character: Character): UseApiCall<null> => {
+export const newCharacter = (character: Character): UseApiCall<null, Character> => {
   const controller = loadAbort();
 
   return {
