@@ -1,4 +1,4 @@
-import axios, { AxiosInstance, AxiosRequestHeaders, AxiosResponse, InternalAxiosRequestConfig } from "axios";
+import axios, { AxiosInstance, AxiosResponse, InternalAxiosRequestConfig } from "axios";
 
 let axiosInstance: AxiosInstance;
 
